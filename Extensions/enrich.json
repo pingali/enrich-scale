@@ -4,7 +4,7 @@
 	"name": "Extensions",
 	"customer": "scribble",
 	"description": "High performance extensions",
-        "logo": "https://www.scribbledata.io/logo.png"
+        "logo": "/static/images/scribble/scribbledata-logo.jpg"
     },
     "repository" : { 
         "author": "Venkata Pingali",
