@@ -1,0 +1,14 @@
+{
+    "enable": true, 
+    "org": {
+	"name": "Extensions",
+	"customer": "scribble",
+	"description": "High performance extensions",
+        "logo": "https://www.scribbledata.io/logo.png"
+    },
+    "repository" : { 
+        "author": "Venkata Pingali",
+        "email": "pingali@scribbledata.io",
+        "giturl": "git@github.com:pingali/enrich-scale.git" 
+    }
+}
