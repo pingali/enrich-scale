@@ -1,0 +1,61 @@
+{
+  "run": {
+    "data": {
+      "metrics": [
+        {
+          "value": 0.6165511976809881,
+          "timestamp": "1555058679",
+          "key": "mae"
+        },
+        {
+          "value": 0.19982188041280946,
+          "timestamp": "1555058677",
+          "key": "r2"
+        },
+        {
+          "value": 0.7871063202585681,
+          "timestamp": "1555058676",
+          "key": "rmse"
+        }
+      ],
+      "params": [
+        {
+          "value": "0.1",
+          "key": "alpha"
+        },
+        {
+          "value": "0.8",
+          "key": "l1_ratio"
+        }
+      ],
+      "tags": [
+        {
+          "value": "LOCAL",
+          "key": "mlflow.source.type"
+        },
+        {
+          "value": "11d5fd98f0de068e6cb208a3dd81c2657305d9dc",
+          "key": "mlflow.source.git.commit"
+        },
+        {
+          "value": "sklearn_elasticnet_wine/train.py",
+          "key": "mlflow.source.name"
+        }
+      ]
+    },
+    "info": {
+      "experiment_id": "0",
+      "source_name": "sklearn_elasticnet_wine/train.py",
+      "name": "",
+      "status": "FINISHED",
+      "source_type": "LOCAL",
+      "start_time": "1555058672306",
+      "source_version": "11d5fd98f0de068e6cb208a3dd81c2657305d9dc",
+      "user_id": "abhiram",
+      "artifact_uri": "s3://scribble-demodata/mlflow/0/82358048e9fc4b20a4add6d9c9701d25/artifacts",
+      "end_time": "1555058684678",
+      "lifecycle_stage": "active",
+      "run_uuid": "82358048e9fc4b20a4add6d9c9701d25"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "experiments": [
+    {
+      "experiment_id": "0",
+      "lifecycle_stage": "active",
+      "artifact_location": "s3://scribble-demodata/mlflow/0",
+      "name": "Default"
+    }
+  ]
+}
