@@ -1,4 +1,8 @@
-[] Extensions
---------
+[scribble] Extensions
+---------------------
 
-Enrich modules for Extensions
+Modules
+~~~~~~~
+
+.. automodule:: enrichapp.scale.transforms
+   :members:

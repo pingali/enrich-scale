@@ -9,7 +9,7 @@ import logging
 
 logger = logging.getLogger("app")
 
-from enrichapp.scale.transforms import QueryExecutorBase
+from enrichsdk.contrib.transforms.query_executor import QueryExecutorBase
 
 class MyQueryExecutorExample(QueryExecutorBase):
 
@@ -27,7 +27,7 @@ class MyQueryExecutorExample(QueryExecutorBase):
                     "force": True,
                     "names": "all",
                     "start": "2020-08-01",
-                    "end": "2020-08-02",
+                    "end": "2020-08-03",
                 }
             },
             "data": {}
@@ -62,7 +62,7 @@ class MyQueryExecutorExample(QueryExecutorBase):
                 "queries": [ 
                     {
                         "name": "employees",
-                        "output": "%(data_root)s/shared/db/select_star/%(dt)s.tsv",
+                        "output": "%(data_root)s/shared/db/employee/%(dt)s.tsv",
                         "sql": "%(transform_root)s/SQL/employees.hql",
                     }
                 ]
