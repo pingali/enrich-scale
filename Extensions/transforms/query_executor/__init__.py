@@ -9,7 +9,7 @@ import logging
 
 logger = logging.getLogger("app")
 
-from enrichsdk.contrib.transforms.query_executor import QueryExecutorBase
+from enrichsdk.contrib.lib.transforms.query_executor import QueryExecutorBase
 
 class MyQueryExecutorExample(QueryExecutorBase):
 
@@ -42,7 +42,6 @@ class MyQueryExecutorExample(QueryExecutorBase):
         thisdir = os.path.dirname(__file__)
         complete_spec = [
             {
-                "enable": False,
                 "name": "roomdb",
                 "cred": "roomdb",
                 "queries": [ 
@@ -57,6 +56,7 @@ class MyQueryExecutorExample(QueryExecutorBase):
                 ]
             },
             {
+                "enable": False,
                 "name": "hive",
                 "cred": "hiveserver",
                 "queries": [ 
